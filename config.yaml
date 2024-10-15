@@ -1,0 +1,17 @@
+
+# Model parameters
+vocab_size: 50257  # GPT-2 tokenizer vocabulary size
+d_model: 256
+num_heads: 8
+num_layers: 6
+d_ff: 1024
+max_seq_length: 128
+dropout: 0.1
+
+# Training parameters
+batch_size: 64
+num_epochs: 20 # we set to a low value
+learning_rate: 3e-4
+
+# TODO: use your text file
+data_path: "data/your_text_file.txt"
